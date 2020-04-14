@@ -1,0 +1,1316 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usepackage{helvet}
+\usepackage[default]{lato}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{mathpazo}
+\usepackage{hyperref}
+%\usepackage{lipsum}
+\usepackage{multimedia}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{bbm}
+\usepackage{remreset}
+\usepackage{appendixnumberbeamer}
+\usepackage{enumerate}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage[space]{grffile}
+\usepackage{booktabs}
+
+%\usetheme{Madrid}
+
+% margins
+\setbeamersize{text margin left=6mm}
+\setbeamersize{text margin right=12mm}
+
+% suppress footer and navigation symbols
+\setbeamertemplate{navigation symbols}{}
+%\setbeamertemplate{footline}{}
+%\setbeamertemplate{footline}[frame number]
+\setbeamertemplate{itemize items}{-}
+
+% show page number in footer, but not total
+\setbeamertemplate{footline}{
+  \hfill%
+  \usebeamercolor[fg]{page number in head/foot}%
+  \usebeamerfont{page number in head/foot}%
+  \setbeamertemplate{page number in head/foot}[framenumber]%
+  \usebeamertemplate*{page number in head/foot}
+     / \inserttotalframenumber
+     \kern1em\vskip2pt%
+}
+
+% set colors
+%\definecolor{myteal}{RGB}{53,127,177}
+%\definecolor{paulsblue}{RGB}{0,114,178}
+\definecolor{sage}{RGB}{137,179,116}
+\definecolor{fern}{RGB}{72,121,66}
+\definecolor{seagreen}{RGB}{46,139,87}
+%\definecolor{red}{RGB}{213,94,0}
+%\definecolor{yellow}{RGB}{240,228,66}
+%\definecolor{green}{RGB}{0,158,115}
+%\definecolor{white}{rgb}{1,1,1}
+\setbeamercolor{structure}{fg=seagreen}
+%\setbeamercolor{frametitle}{fg=blue}
+%\setbeamercolor{title}{fg=black}
+%\setbeamercolor{itemize item}{fg=blue}
+%\setbeamercolor{itemize subitem}{fg=blue}
+%\setbeamercolor{enumerate item}{fg=blue}
+%\setbeamercolor{enumerate subitem}{fg=blue}
+%\setbeamercolor{button}{bg=MyBackground,fg=blue,}
+
+% set title page colors (background needs to be switched back later)
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{institute}{fg=white}
+\setbeamercolor{author}{fg=white}
+\setbeamercolor{date}{fg=white}
+\setbeamercolor{background canvas}{bg=seagreen}
+
+% set fonts
+%\setbeamerfont{title}{series=\bfseries}
+\setbeamerfont{frametitle}{series=\bfseries}
+\setbeamerfont{institute}{size=\small}
+\end_preamble
+\options aspectratio=169
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 11
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 4cm
+\headheight 3cm
+\headsep 3cm
+\footskip 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title (Plain Frame)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{
+\end_layout
+
+\end_inset
+
+Reflections on Grad School in Economics
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+ Or, what I’d tell my first-year self if I had a time machine 
+\end_layout
+
+\begin_layout Author
+Nick Hagerty
+\end_layout
+
+\begin_layout Date
+April 2020
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setbeamercolor{background canvas}{bg=white}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Disclaimers
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All advice suffers from survivorship bias
+\end_layout
+
+\begin_layout Itemize
+This is not meant to be a comprehensive guide
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Just some things that have been helpful to me
+\end_layout
+
+\begin_layout Itemize
+If others find it relevant, great!
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Most of the insights are not original
+\end_layout
+
+\begin_layout Itemize
+I have certainly not mastered all of it myself
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Some definitely falls under “do as I say, not as I do”
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Don't forget why an economics PhD is amazing 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+You get to do analytical work on current real-world problems that you can
+ explain to your friends and family
+\end_layout
+
+\begin_layout Itemize
+Media and policymakers actually pay attention to the results sometimes
+\end_layout
+
+\begin_layout Itemize
+You get a very high degree of autonomy in your work
+\end_layout
+
+\begin_layout Itemize
+You are extremely employable (in stable jobs that pay well and provide benefits)
+\end_layout
+
+\begin_layout Itemize
+You graduate without enormous amounts of debt (hopefully)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Your job in 1st and 2nd year
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Learn and absorb as much as you can, within reasonable limits
+\end_layout
+
+\begin_layout Itemize
+Make friends and be generous with your cohort-mates
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+You might learn more from them than your professors
+\end_layout
+
+\begin_layout Itemize
+Bonds forged now are harder to recreate after grad school
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Don’t stress about your grades
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+They don’t matter
+\end_layout
+
+\begin_layout Itemize
+Really
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Work for a professor to learn the 
+\emph on
+process
+\emph default
+ of doing good research
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Summer RA'ing might be more valuable than classes
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Go to seminars and lunches
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+You’ll be tempted to skip.
+ Resist.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Even when you think you aren't interested in the topic
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pay attention to the back-and-forth
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What’s received well, what’s not
+\end_layout
+
+\begin_layout Itemize
+This is how you pick up the norms of the discipline
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Don’t worry if you don’t follow all the content yet
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Faculty are not THAT much smarter than you
+\end_layout
+
+\begin_layout Itemize
+They’ve just seen similar equations a thousand times before
+\end_layout
+
+\begin_layout Itemize
+They know what parts to zero in on and what parts they can skip 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Transitioning into research
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It’s hard! Be kind to yourself
+\end_layout
+
+\begin_layout Itemize
+Meet frequently with your advisors
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+“But I don’t have anything new to show them
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Go talk to them anyway.
+ They can help you get unstuck.
+\end_layout
+
+\begin_layout Itemize
+You can't actually hide.
+ They notice you're not emailing them.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Write a bad paper
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Do not expect your first attempt to be good.
+ Just get one done.
+\end_layout
+
+\begin_layout Itemize
+Procrastination often comes from a fear of failure
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Embrace a growth mindset
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Your 
+\begin_inset Quotes eld
+\end_inset
+
+type
+\begin_inset Quotes erd
+\end_inset
+
+ is not fixed!!
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Intelligence is malleable, not a parameter waiting to be uncovered
+\end_layout
+
+\begin_layout Itemize
+Immutable talent is inconsistent with research on human development
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+All skills get better with practice.
+ Research is no exception.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Your standards develop faster than your ability (look up Ira Glass & the
+ “taste gap”)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Find ways to worry less about what other people think of you
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Your ideas will improve; their initial impressions will update
+\end_layout
+
+\begin_layout Itemize
+They aren't paying as much attention to you as you think
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Find ways to accept your performance in the present
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+It's a journey: Where you are today is not where you will be tomorrow
+\end_layout
+
+\begin_layout Itemize
+All you can do is try your best in each moment
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Balance your time
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Do not try to work all the time
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Sleep and breaks can improve motivation & focus
+\end_layout
+
+\begin_layout Itemize
+Total productivity has an interior solution (to say nothing of total utility)
+\end_layout
+
+\begin_layout Itemize
+Do outside activities.
+ Have a social life.
+ Make friends who aren’t economists.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+“Work is just what I do when I have nothing else scheduled”
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+There is no end to the work you 
+\emph on
+could
+\emph default
+ do
+\end_layout
+
+\begin_layout Itemize
+Carve out times to not work.
+ Give yourself permission to clear your mind.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The risk: Your work becomes your identity
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Then when your research doesn’t go well, you feel like a failure
+\end_layout
+
+\begin_layout Itemize
+Your research will not always go well
+\end_layout
+
+\begin_layout Itemize
+But 
+\emph on
+you 
+\emph default
+will never be a failure.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Choosing advisors
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consider younger senior faculty
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Far enough in their career that they have influence and stability
+\end_layout
+
+\begin_layout Itemize
+Early enough that they’re working at the methodological frontier
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Get at least one you feel you can connect with on a personal level
+\end_layout
+
+\begin_layout Itemize
+Extricate yourself early from any toxic relationships
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Unconstructive criticism? Lack of boundaries? Pressure to work all the time?
+\end_layout
+
+\begin_layout Itemize
+Not worth it in the long run
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Where to get research ideas? My view so far
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Reading widely about problems that people care about in the real world
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+News media, especially outlets that focus on investigative journalism
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For my US interests: High Country News, Bitterroot, ProPublica, Grist
+\end_layout
+
+\begin_layout Itemize
+For my India interests: Down to Earth, The Scroll, The Wire
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Reports by think tanks, policy organizations, advocacy groups
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Making connections between fields
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Lots of arbitrage opportunities out there
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+An insight from health insurance markets becomes relevant to flood risk
+\end_layout
+
+\begin_layout Itemize
+A new tool from IO helps solve a longstanding problem in ag econ
+\end_layout
+
+\begin_layout Itemize
+Sociologists identify an important factor but the direction of causality
+ is unclear
+\end_layout
+
+\begin_layout Itemize
+Advances in environmental monitoring inspire a new identification strategy
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+This is why it's useful to attend talks outside your specific interests
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+How much to strategize what you work on and how
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Maybe a little bit
+\end_layout
+
+\begin_layout Itemize
+Not too much
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+You'll do a much better job on projects you're excited about
+\end_layout
+
+\begin_layout Itemize
+The strategy might turn out to be wrong
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+When your gut instinct is strong, don’t let your advisors overrule it
+\end_layout
+
+\begin_layout Itemize
+I try to find projects at the intersection of:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+I think it’s important and exciting
+\end_layout
+
+\begin_layout Itemize
+Plenty of other economists will find it interesting
+\end_layout
+
+\begin_layout Itemize
+It can be answered convincingly with the tools I have
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The research frontier moves fast
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename research frontier moves fast.pdf
+	lyxscale 50
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nobody knows for sure what will be rewarded a few years from now
+\end_layout
+
+\begin_layout Itemize
+Not even your advisers
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Go to conferences, if possible
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Networking is just making friends
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With appropriate professional boundaries
+\end_layout
+
+\begin_layout Itemize
+Get to know your peers at other schools
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+They’ll be your colleagues for decades and will hold power in the future
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+You're probably not going to impress senior academics at this stage anyway
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Practice presenting externally, in fairly low-stakes settings
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Audiences are friendly at most conferences
+\end_layout
+
+\begin_layout Itemize
+Especially in environment and resources
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Exposure to a wider variety of perspectives and values
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Your own department has an idiosyncratic culture (all departments do)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Choosing a job market paper
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Mostly just your most promising project by 4th year
+\end_layout
+
+\begin_layout Itemize
+Ideally represents the kind of research you want to keep doing
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In terms of both topics and methods
+\end_layout
+
+\begin_layout Itemize
+Potential employers will categorize you based on it
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Good to push yourself & demonstrate lots of skills
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+But don’t work too far beyond the edge of your knowledge 
+\end_layout
+
+\begin_layout Itemize
+To anticipate and answer questions well, you have to understand what you’re
+ doing at 1-2 levels deeper than what you actually put in the paper
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Surviving the job market
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Awesome:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Meet lots of people who are interested in you and your work
+\end_layout
+
+\begin_layout Itemize
+Everybody gets a job! (usually)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Less awesome:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Emotional rollercoaster.
+ Low control, high uncertainty
+\end_layout
+
+\begin_layout Itemize
+Rejections.
+ >95% of applications do not result in a flyout, even for 
+\begin_inset Quotes eld
+\end_inset
+
+stars
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Do not seek external validation from the job market
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Get your validation beforehand (ideally from yourself)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Always have a backup plan
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What’s your second choice sector?
+\end_layout
+
+\begin_layout Itemize
+Do the work to realistically picture yourself there 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Go to therapy (when available/affordable)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Everybody can benefit
+\end_layout
+
+\begin_layout Itemize
+In one survey, 18% of economics grad students had moderate to severe symptoms
+ of depression and anxiety (Barreira et al.
+ 2018)
+\end_layout
+
+\begin_layout Itemize
+You probably have some unhelpful aspects of your worldview, self-image,
+ thought processes, and behavior patterns
+\end_layout
+
+\begin_layout Itemize
+Therapy can help you pinpoint their roots and learn more adaptive ways of
+ handling things
+\end_layout
+
+\begin_layout Itemize
+Books and apps can also be helpful if talk therapy is infeasible
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+The achievement/status game
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+You’ve probably been playing it for a long time.
+ When does it end?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Never.
+\end_layout
+
+\begin_layout Itemize
+Jobs, publications, tenure, promotion, keynote addresses, prizes...
+\end_layout
+
+\begin_layout Itemize
+It can be hard to ever feel like you “made it” because by the time you get
+ there, you’ve already raised the bar for yourself and are now comparing
+ yourself against an even more elite group of people
+\end_layout
+
+\begin_layout Itemize
+Many people in academia are deeply unhappy
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+You get to choose when you cash in!
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Other careers will pay you more to work on things you’re not excited about
+\end_layout
+
+\begin_layout Itemize
+If you want to stay, keep playing the game at least a little bit
+\end_layout
+
+\begin_layout Itemize
+But make sure you enjoy things along the way
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
